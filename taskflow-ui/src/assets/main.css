@@ -1,0 +1,17 @@
+:root { --primary: #409EFF; --success: #67C23A; --warning: #E6A23C; --danger: #F56C6C; }
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Helvetica Neue', 'PingFang SC', 'Microsoft YaHei', sans-serif; background: #f0f2f5; color: #333; }
+.page-header { background: #fff; padding: 0 24px; height: 60px; display: flex; align-items: center; justify-content: space-between; box-shadow: 0 1px 4px rgba(0,0,0,.08); position: sticky; top: 0; z-index: 100; }
+.page-header .logo { font-size: 20px; font-weight: 600; color: var(--primary); }
+.page-header .nav-links { display: flex; gap: 24px; }
+.page-header .nav-links a { text-decoration: none; color: #555; font-size: 14px; transition: color .2s; }
+.page-header .nav-links a:hover, .page-header .nav-links a.router-link-active { color: var(--primary); }
+.page-content { max-width: 1200px; margin: 24px auto; padding: 0 24px; }
+.card-box { background: #fff; border-radius: 8px; padding: 24px; box-shadow: 0 2px 8px rgba(0,0,0,.06); }
+.page-title { font-size: 20px; font-weight: 600; margin-bottom: 16px; }
+.auth-page { min-height: 100vh; display: flex; align-items: center; justify-content: center; background: linear-gradient(135deg, #667eea, #764ba2); }
+.auth-card { width: 420px; padding: 40px; background: #fff; border-radius: 12px; box-shadow: 0 20px 60px rgba(0,0,0,.15); }
+.auth-card h2 { text-align: center; margin-bottom: 32px; font-size: 24px; }
+.auth-card .el-button { width: 100%; }
+.footer-link { text-align: center; margin-top: 16px; font-size: 14px; color: #999; }
+.footer-link a { color: var(--primary); text-decoration: none; }
